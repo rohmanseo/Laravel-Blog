@@ -7,3 +7,4 @@ Route::get('/', function () {
 Route::get('/homepage','HomeController@index');
 Route::get('/homepage/{id}','HomeController@show');
 Route::get('/produk','produkController@index');
+Route::get('/tambah','produkController@tambah');
